@@ -38,19 +38,19 @@ export default function App() {
   }
 
   function alternarConcluida(id) {
-    const novas = tarefas.map((t) =>
-      t.id === id ? { ...t, concluida: !t.concluida } : t
+    const novas = tarefas.map((tarefa) =>
+      t.id === id ? { ...tarefa, concluida: !tarefa.concluida } : t
     );
     setTarefas(novas);
   }
 
   function removerTarefa(id) {
-    const novas = tarefas.filter((t) => t.id !== id);
+    const novas = tarefas.filter((tarefa) => tarefa.id !== id);
     setTarefas(novas);
   }
 
   function limparConcluidas() {
-    const novas = tarefas.filter((t) => !t.concluida);
+    const novas = tarefas.filter((tarefa) => !tarefa.concluida);
     setTarefas(novas);
   }
 
