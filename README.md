@@ -1,16 +1,68 @@
-# React + Vite
+# 📝 To-Do List - Estartando Devs
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi desenvolvido como atividade prática do curso **Estartando Devs**, com o objetivo de criar uma aplicação React para gerenciar tarefas (To-Do List).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Funcionalidades
 
-## React Compiler
+- Adicionar novas tarefas  
+- Marcar tarefas como concluídas  
+- Reabrir tarefas concluídas  
+- Remover tarefas  
+- Filtrar tarefas (todas, ativas e concluídas)  
+- Página separada para listar apenas as tarefas concluídas  
+- Armazenamento das tarefas no **LocalStorage**  
+- IDs gerados com a biblioteca **UUID**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧠 Tecnologias Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://react.dev/)  
+- [React Router DOM](https://reactrouter.com/en/main)  
+- [UUID](https://www.npmjs.com/package/uuid)  
+- CSS puro (arquivos `.css` separados)
+
+---
+
+## 📂 Estrutura do Projeto
+
+```bash
+src/
+│
+├── pages/
+│ └── TarefasConcluidas.jsx
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+```
+
+---
+
+## ⚙️ Como Rodar o Projeto
+
+1. Clone este repositório:
+
+```bash
+   git clone https://github.com/bfabbio90/estartandodevs-atividade-toDoList
+```
+
+2. Entre na pasta do projeto:
+
+```bash
+    cd estartandodevs-atividade-toDoList
+```
+
+3. Instale o projeto:
+
+```bash
+    npm install
+```
+
+4. Instale o projeto:
+
+```bash
+    npm run dev
+```
