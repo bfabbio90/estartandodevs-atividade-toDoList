@@ -52,17 +52,17 @@ src/
 2. Entre na pasta do projeto:
 
 ```bash
-    cd estartandodevs-atividade-toDoList
+  cd estartandodevs-atividade-toDoList
 ```
 
 3. Instale o projeto:
 
 ```bash
-    npm install
+  npm install
 ```
 
-4. Instale o projeto:
+4. Rode o projeto:
 
 ```bash
-    npm run dev
+  npm run dev
 ```
