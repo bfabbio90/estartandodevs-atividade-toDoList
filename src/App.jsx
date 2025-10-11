@@ -111,7 +111,7 @@ export default function App() {
                           {tarefa.titulo}
                         </span>
                       </div>
-                      <button onClick={() => removerTarefa(t.id)}>Remover</button>
+                      <button onClick={() => removerTarefa(tarefa.id)}>Remover</button>
                     </li>
                   ))}
                 </ul>
